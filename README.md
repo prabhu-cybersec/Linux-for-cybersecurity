@@ -9,5 +9,5 @@ This repository documents my daily Linux practice as I prepare for a career in C
 - Linux Hardening
 - Troubleshooting
 
-## Daily Notes
+## Notes
 Check the **linux-fundamentals** folder for my daily learning notes.
