@@ -6,7 +6,7 @@
 - `head` and `tail` help preview beginning and end of files.
 - `wc` counts lines, words and characters.
 - `grep` is used to search text inside files (very important).
-
+- `journalctl` for system logs.
 ## Commands Practiced
 
 - less
@@ -29,6 +29,10 @@
 - grep
   - `grep "Linux" practice.txt`
   - Searches for a word inside a file.
+- journalctl
+  - `journalctl -f` fro live logs.
+  - `journalctl` for full view
+  - `journalctl -n 20 | grep "failed" ` to search latest 20 logs for failed.
 
 ## What I Understood in Simple Words
 These commands help us read and search inside files quickly without opening a text editor. This is very useful for reading logs and debugging systems.
