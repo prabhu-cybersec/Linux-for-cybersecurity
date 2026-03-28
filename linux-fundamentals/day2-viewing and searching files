@@ -1,0 +1,41 @@
+# Day 2 – Viewing and Searching File Content
+
+## What I Learned
+- Linux provides multiple commands to view file content.
+- `less` is better than `cat` for large files.
+- `head` and `tail` help preview beginning and end of files.
+- `wc` counts lines, words and characters.
+- `grep` is used to search text inside files (very important).
+
+## Commands Practiced
+
+- less
+  - `less practice.txt`
+  - Used to scroll through file content.
+  - Press `q` to exit.
+
+- head
+  - `head practice.txt`
+  - Shows first 10 lines of a file.
+
+- tail
+  - `tail practice.txt`
+  - Shows last 10 lines of a file.
+
+- wc
+  - `wc practice.txt`
+  - Counts lines, words and characters.
+
+- grep
+  - `grep "Linux" practice.txt`
+  - Searches for a word inside a file.
+
+## What I Understood in Simple Words
+These commands help us read and search inside files quickly without opening a text editor. This is very useful for reading logs and debugging systems.
+
+## Problems I Faced
+- Tried using `/var/log/syslog` but it showed file directory doesnot exist.
+
+## How I Fixed Them
+- Learned that Kali uses `journalctl` instead of syslog.
+- Used: `journalctl | grep "failed"`
