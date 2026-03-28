@@ -7,23 +7,23 @@
 
 ## Commands Practiced
 pwd
-ls 
-ls -l
-cd /
-cd ~
-cd ..
-cd path
-tree
-mv (move)
-mv (rename)
-cp
-mkdir 
-touch (create file)
-rm (delete file)
-rm -r (delete directory)
-echo '' >
-echo '' >>
-cat (view file content)
+ls,  
+ls -l, 
+cd /, 
+cd ~, 
+cd .., 
+cd path, 
+tree, 
+mv (move), 
+mv (rename), 
+cp, 
+mkdir,  
+touch (create file), 
+rm (delete file), 
+rm -r (delete directory), 
+echo 'text' >, 
+echo 'text' >>, 
+cat (view file content), 
 
 ## What I understood in simple words
 Linux file system is like a tree. Everything starts from /.
