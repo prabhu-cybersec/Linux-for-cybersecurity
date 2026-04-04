@@ -16,10 +16,12 @@
   -> is for redirecting the output somwhere else
   ->> is for appending the output after redirecting it somwhere else
   -find is mostly for finding files and directories. 
+
 # Problems I Faced
  - > deleted what was on the file before
  - && is couldn't run the first command and second command is not running
  - find syntax error
+
 # How I Fixed Them
   -learned that && doesn't run the 2nd cmmnd if 1st is not successful.
   -> replaces things so use >>
