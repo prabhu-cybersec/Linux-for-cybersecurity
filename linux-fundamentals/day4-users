@@ -1,0 +1,17 @@
+# Day 4 – users
+ 
+# What I Learned
+  -view and switch users
+  
+# Commands Practiced
+  -whoami /shows which user is running the command
+  -id
+  -users /shows what user is logged in
+  -adduser /adds new users
+# Problems I Faced
+  - when i switched user with `su hacker` after adding user hacker with `sudo adduser hacker` command `users` still showed my main
+  account while whoami showed hacker.
+  - while creating user it asked for full name, room no etc.
+# How I Fixed Them
+ - learned that `su` just switches user inside shell and doesnot create new login session so users showed main account
+ - password asked are for new user and other are only needed in organizations so ignore and just hit enter
