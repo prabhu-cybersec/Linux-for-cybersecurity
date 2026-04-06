@@ -1,0 +1,33 @@
+# Day 5 – Permissions 
+    
+# What I Learned
+  - Understood the permission string
+
+  - change and view permissions for files and folders
+  
+# Commands Practiced
+  -`chmod *** file_name` or forlder name
+  - `ls -l`
+  - `ls -ld`
+  
+# What I Understood in Simple Words
+  -For Permission string
+  - rwx = 7
+  - rw- = 6
+  - r-x = 5
+  - r-- = 4 and so on
+    - read(r)-> 4
+    - write(w)-> 2
+    - execute(x)-> 1
+  -change permission with chmod for both files and folders
+  - for ex: `- rwxrw-r-x` (permission 765) means
+    - first part rwx=7 is for owner
+    - 2nd part rw- = 6 is for group
+    - 3rd part r-x = 5 is for others
+  
+# Problems I Faced
+  -Couldn't understand what r, w, x for folders mean
+# How I Fixed Them
+  - r means you can read the things inside a folder
+  - w means you can create, delete and change things inside a folder
+  - x means whether you can enter the said forlder
