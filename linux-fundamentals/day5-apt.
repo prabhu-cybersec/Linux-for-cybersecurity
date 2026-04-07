@@ -1,0 +1,37 @@
+# Day 6 – APT
+
+# What I Learned
+  - How to install, update, remove and search programs.
+    
+# Commands Practiced
+  - `sudo apt update`
+  - `sudo apt upgrade`
+  - `sudo apt install name`
+  - `sudo apt remove name`
+  - `apt list --install` and its different version
+  - `apt show name`
+  - `apt search htop`
+  - `which "program name"
+    
+# What I Understood in Simple Words
+  - how to update apt repo and upgrade installed packages
+  - how to install and remove programms
+  - how to list installed programms along with adding filters using |grep or only head lines with |head
+  - with apt show we can see lot of info about the package from apt repo
+  - which command show the path of installed program
+  - search command show all the programs containing the asked string
+    
+# Problems I Faced
+  - update showed >2100 packages are upgradable
+  - apt list --installed shows a warning about not using this command in scripts and then nothing
+  - apt show tells a lot about the package from apt repo
+  - which shows program not found
+  - search shows a lot and not good for something specific
+    
+# How I Fixed Them 
+  - run upgrade command only when needed
+  - showing nothing means not installed
+  - to see if its installed look for a headed saying APT-Installed: yes, if its missing then package is not installed
+  - that means package not installed
+  - use show, list, and which to see the info about particular package
+    
