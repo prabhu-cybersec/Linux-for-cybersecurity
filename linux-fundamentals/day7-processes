@@ -1,11 +1,17 @@
-Day 7 – Process & System management
+Day 7 – Process & System monitoring
 
 # What I Learned
-
+  - how to monitor system processes
 # Commands Practiced
-
+  - ps 
+  - ps aux
+  - ps aux | grep *particular process name*
+  - top
+  - htop (a better version)
+  - kill PID
+  - kill -9 PID for stubborn ones
 # What I Understood in Simple Words
-
-# Problems I Faced
-
-# How I Fixed Them
+  - ps aux to see all running programs
+  - ps aux | grep to search a process and get their PID
+  - we can use that PID to kill the process
+  - top and htop for live system monitering
