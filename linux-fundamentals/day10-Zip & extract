@@ -1,0 +1,16 @@
+Day X – Archiving & Zipping
+
+# Commands Practiced
+  - `tar -cvf filename.tar folder`
+  - `tar -xvf filename.tar
+  - `tar -czvf filename.tar.gz folder
+  - `tar -xzvf filename.tar.gz
+  
+# What I Understood in Simple Words
+  - How to archive, unarchive, compress and decompress
+# Problems I Faced
+  - whats the syntax mean
+  - After I archive the folder a new file appeared but nothing happened after I unarchived this new file
+# How I Fixed Them
+  - c means for create and x for extract, cz for compress and xz for decompress
+  - after creating the archive file I deleted the original folder and then unarchaived and the original folder reappeared
