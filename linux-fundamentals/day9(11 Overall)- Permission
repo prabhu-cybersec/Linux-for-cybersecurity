@@ -1,0 +1,16 @@
+Day 11 – Change Ownership
+
+# What I Learned
+  - Change Ownership
+  
+# Commands Practiced
+  - `sudo chown user file_or_folder_name.txt`        / change ownership of file  to another user
+  - `sudo chown user:user filename.txt`              / change owner and group owner to another user
+  - `sudo chown :user filename.txt`                  / change group ownership only
+  - `sudo chown -R user foldername`                  / change permission recurssively for folder and everything inside it
+  
+# Problems I Faced
+  - I didnot know how to change only group permission
+  
+# How I Fixed Them
+  - used :user instead of user:user
