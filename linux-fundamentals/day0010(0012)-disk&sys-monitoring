@@ -1,0 +1,17 @@
+Day X – Topic Name
+
+# What I Learned
+  - How to see disk usage
+# Commands Practiced
+  - `df -h`      / see disk space partitions
+  - `du -sh *`   / see size of everything in the current directory
+  - `du -sh name`/ see size of the particular item
+  - `free -h`    / see memory stats and usage
+  - `top`        / task manager stats- realtime
+  
+# Problems I Faced
+  - wanted to see size of a particular item
+  - couldnot differentiate between top and journalctl
+# How I Fixed Them
+  - used du -sh name
+  - same diff as task manager and eventviewr in windows
