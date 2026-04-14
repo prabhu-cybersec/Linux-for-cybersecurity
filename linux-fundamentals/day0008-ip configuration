@@ -3,6 +3,7 @@
 # What I Learned
   - how to see ip configuration
 # Commands Practiced
+  - ifconfig  / To see ip configuration
   - ip a      / To see only your ip
   - ip route  / To see your and gateway ip and mask
   - ss -tunl  / To see open or running ports
