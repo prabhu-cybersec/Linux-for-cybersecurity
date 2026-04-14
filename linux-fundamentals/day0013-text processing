@@ -1,0 +1,19 @@
+Day 13 – Text Processing
+
+# What I Learned
+  - display, counting, searching, showing columns from inside the text file
+    
+# Commands Practiced
+  - `cat`                / display content
+  - `nl`                 / display with lines numbered
+  - `wc`                 / count lines, words, characters ( var: -l, -w, -c  for only lines, words & characters)
+  - `cut -d " " -f3 name`/ shows only 3rd column(-f3), separates column by space(" ") of the text file "name"
+  - `grep search name`   / finds the word(search) from text file "name"
+    
+# Problems I Faced
+  - cut showed everything
+  - wc showed one extra no of lines
+    
+# How I Fixed Them
+  - put the delimiter properly as in the space b/w quoutes
+  - inside nano, after last line, if you press enter then one more line is created, even if you don't write anything.
